@@ -16,5 +16,4 @@ struct MyRect: Equatable {
         self.leftTop = origin
         self.rightBottom = MyPoint(x: leftTop.x + Int(size.width), y: leftTop.y - Int(size.height))
     }
-
 }
