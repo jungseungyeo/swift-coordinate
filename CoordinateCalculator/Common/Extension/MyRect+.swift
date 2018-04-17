@@ -6,6 +6,7 @@
 //  Copyright © 2018년 Codesquad Inc. All rights reserved.
 //
 
+
 extension MyRect: FigureProtocol {
     func figureCalculation() -> Double {
         return Double((rightBottom.x - leftTop.x) * (leftTop.y - rightBottom.y))
@@ -22,5 +23,5 @@ extension MyRect: FigureProtocol {
         return [leftBottom, leftTop, rightBottom, rightTop]
     }
     
-    
+
 }
